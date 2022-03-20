@@ -115,7 +115,7 @@ The supported system are :
 - macOS, Linux and Windows
 - [IOS](#ios) (with [Pyto](https://pyto.app) and/or [a-shell](https://holzschu.github.io/a-Shell_iOS/) with [Working Copy](https://workingcopyapp.com/))
 
-### Configuration
+### Script's configuration
 At the first run, you will be asked to configure some key and specific path.
 1. <u>Vault</u> : Use the file dialog to choose your vault folder.
 2. <u>Publish repository folder : </u> As vault path, use the file dialog.
@@ -184,7 +184,7 @@ You can :
 - Ignore the difference between the source file and the blog's file with :  `obs2mk all --force`
 Also, you can combine the two options. 
 
-### Configuration
+### Multiple configuration
 You can use and create multiple configuration files. This allows to have multiple site based on one vault, or different vault accross one site... 
 1. To create a new configuration file : `obs2mk config --new configuration_name`
 2. To use a configuration use : `--use configuration_name` 
