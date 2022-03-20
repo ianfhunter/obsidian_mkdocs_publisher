@@ -1,0 +1,3 @@
+[submodule "mkdocs_obsidian_publish"]
+	path = mkdocs_obsidian_publish
+	url = git@github.com:Mara-Li/mkdocs_obsidian_publish.git
