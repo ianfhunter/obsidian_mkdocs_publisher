@@ -8,7 +8,7 @@ mdx_breakless_lists
 mkdocs-preview-links-plugin
 mkdocs-embed-file-plugins
 Markdown
-mdx-wikilinked-plus
+mdx-wikilink-plus
 
 # Plugins requirements
 clipboard==0.0.4
