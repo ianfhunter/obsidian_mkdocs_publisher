@@ -1,0 +1,15 @@
+name: Sync submodule
+# sync submodule each day
+
+on:
+  schedule:
+  - cron: "0 */4 * * *"
+
+jobs:
+  submodule:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a one-line script
+        run: git submodule update --remote
