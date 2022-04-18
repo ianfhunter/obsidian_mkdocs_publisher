@@ -11,9 +11,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: submodule update
-        run: git submodule update --remote
-      - name: Commit
+      - name: Github submodule
         run: |
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions - update submodules"
