@@ -12,11 +12,14 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Github submodule
+      - name: Github configuration
         run: |
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions - update submodules"
-          git submodule update --remote --recursive
+      - name: Github update submodule
+        run: git submodule update --remote --recursive
+      - name: Adding to github
+        run: |
           git add .
-          git commit -m "Update submodules" || echo "No changes to commit"
-          git push
+          git commit -m "Update submodules" && git push || echo "No changes to commit"
+          
