@@ -6,3 +6,9 @@
 	path = mkdocs_obsidian_template
 	url = git@github.com:Mara-Li/mkdocs_obsidian_template.git
 	branch = main
+[submodule "asubmodule"]
+	branch = abranch
+[submodule "obsidian-mkdocs-publisher-plugin"]
+	path = obsidian-mkdocs-publisher-plugin
+	url = https://github.com/Mara-Li/obsidian-mkdocs-publisher-plugin
+	branch = master
