@@ -2,8 +2,9 @@ name: Sync submodule
 # sync submodule each day
 
 on:
+  workflow_dispatch:
   schedule:
-  - cron: "0 */4 * * *"
+    - cron: "0 */4 * * *"
 
 jobs:
   submodule:
