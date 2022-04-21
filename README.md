@@ -1,7 +1,3 @@
----
-title: Start here
----
-
 Mkdocs Obsidian is an association between a python script and a Material mkdocs template to get a personal wiki site based on your Obsidian Vault.
 
 <p align="center">
@@ -21,8 +17,20 @@ The plugins can be accessed with a github actions and a Obsidian's plugin or usi
 - [Obsidian Plugin](https://github.com/Mara-Li/obsidian-mkdocs-publisher-plugin/)
 - [Python package](https://github.com/Mara-Li/obsidian-mkdocs-publisher-python)
 - [Template](https://github.com/Mara-Li/obsidian-mkdocs-publisher-template)
-- [Documentation](https://mara-li.github.io/obsidian_mkdocs_publisher_docs/)
 
+
+### Support 
+
+- [x] Wikilinks (`[[Links]]`)
+- [x] File transclusion/embed, both wikilinks and markdown links
+- [x] Obsidian callout and custom callout
+- [x] Folder notes and their citation
+- [x] Custom attributes
+- [x] Sharing state and custom folder hierarchy.
+- [x] Mobile and desktop
+- [x] File mini preview on Hover
+ 
+ 
 # Terminal
 ## Prerequisites
 You need : 
